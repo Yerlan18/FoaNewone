@@ -1,0 +1,303 @@
+@font-face {
+    font-family: "Century Gothic"; /* Имя шрифта */
+    src: url(./fonts/century_gothic.ttf); /* Путь к файлу со шрифтом */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.bg__img {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 550px;
+}
+
+.main__h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 70px;
+}
+
+#main__page {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.2)
+}
+
+.about__us_center {
+    margin-top: 100px;
+    max-width: 1440px;
+    display: inline-block;
+    text-align: center;
+}
+
+.about__us_h1 {
+    font-family: Roboto;
+    margin-bottom: 37px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2B2829;
+    line-height: 49px;
+    letter-spacing: normal;
+    vertical-align: top;
+    line-height: 49px;
+}
+
+.about__us_p {
+    font-size: 23px;
+    font-weight: 350;
+    color: #2B2829;
+    line-height: 38px;
+}
+
+#section__about_us {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 93px;
+}
+
+/* section advantages */
+#section__our_advantages {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.advantages__img_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 316px;
+
+}
+
+.advantages_h1 {
+    margin-bottom: 66px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+.about__us_p {
+    font-size: 23px;
+    font-weight: 350;
+    color: #2B2829;
+    line-height: 38px;
+    margin-bottom: 96px;
+}
+
+/* Catalog page */
+
+.catalog__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 48px;
+}
+
+.catalog__card {
+    display: inline-block;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+.catalog_h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+.catalog__img_container {
+    padding: 20px 5px 50px 0px
+}
+.catalog__link{
+    text-decoration: none;
+}
+
+/* Certificate page */
+
+.certificate_h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+.cert__img_container {
+    display: grid;
+    max-width: 1440px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.cert_img{
+    transition: transform .5s;
+}
+.cert_img:hover{
+    transform: scale(1.15);
+}
+/* Contact */
+
+.contact__h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49px;
+}
+.contact__wrapper{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/* Items */
+
+.item__img {
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.item__wrapper {
+    display: flex;
+    max-width: 1440px;
+    gap: 48px;
+    margin: 33px;
+    justify-content: flex-start;
+}
+
+.item__subgroup {
+    display: inline-block;
+    gap: 37px;
+}
+
+.item__h1 {
+    margin-bottom: 40px;
+}
+
+.item__h1 h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.item__h1 p {
+    font-weight: 700;
+}
+
+.item__desc h1 {
+    margin-bottom: 15px;
+}
+
+.item__bold {
+    font-weight: 700;
+}
+
+.item__desc {
+    margin-bottom: 100px;
+}
+
+.item__btn {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.item__border_btn {
+    color: #E10700;
+    font-size: 32px;
+    line-height: 47px;
+    font-weight: 700;
+    border: 2px solid #E10700;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+.item__wrapper_desc {
+    margin-top: 100px;
+    max-width: 1440px;
+    display: inline-block;
+    text-align: center;
+}
+
+.item__wrapper_desc h1 {
+    margin-bottom: 35px;
+}
+
+.item__wrapper_advantages {
+    margin-top: 100px;
+    max-width: 1440px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 108px;
+}
+
+.item__img_container {
+    display: flex;
+    gap: 316px;
+}
+
+.item_h1_ {
+    margin-bottom: 60px;
+    padding-left: 80px;
+}
+
+.item_h1__ {
+    padding-left: 80px;
+}
+
+.item__wrapper_test {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.item_h1__test{
+    padding-left: 80px;
+}
+.item__wrapper_test h1{
+    margin-bottom: 35px;
+}
+.item__img_test_container{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.item__interp{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    padding-left: 150px;
+}
+.item__img_test_interp{
+    display: flex;
+    font-size:42px;
+    font-weight: 700;
+    gap: 50px;
+    margin-bottom: 100px;
+}
